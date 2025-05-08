@@ -1,0 +1,44 @@
+species
+Ce    core   -9.850000 
+Ce    shel   13.850000 
+La     core   -9.21790  
+La     shel   12.21790  
+O     core    0.936345 
+O     shel   -2.936345  
+buck
+O    shel O    shel  22764.3000     0.149000  20.983768      0.00 25.00     
+O    shel Ce   shel  1139.010286    0.417578  25.082349      0.00  4.80     
+O    shel La   shel  2248.3906      0.341000  34.477930      0.00 25.00      
+Ce   shel Ce   shel  1.00000000     0.100000  30.481293      0.00 25.00    
+La   shel La   shel  1.00000000     0.100000  56.693757      0.00 25.00    
+La   shel Ce   shel  1.00000000     0.100000  39.621401      0.00 25.00
+lennard 12  6     
+O    shel O    shel  10.0      0.0      0.000 25.000
+O    shel Ce   shel  10.0      0.0      0.000  4.80
+O    shel La   shel  10.0      0.0      0.000 25.000
+Ce   shel Ce   shel  10.0      0.0      0.000 25.000
+La   shel La   shel  10.0      0.0      0.000 25.000
+La   shel Ce   shel  10.0      0.0      0.000 25.000
+morse     
+O    shel Ce   shel  -1.15172262 .40000      4.53327  0.0000  0.000   4.80
+polynomial     
+ 1
+O    shel Ce   shel    -1.077769     0.000000  0.000  0.000   4.80
+polynomial
+ 5
+O    shel Ce   shel -1952.35663530 1796.71132884 -658.98890407 &
+120.42275309 -10.96459980 0.39794942  0.000  4.8 5.5
+spring
+Ce    1071.1845     100000.0
+La    799.14006     119228.97  
+O     53.022513     50000.0 
+#######   OPTIONS
+stepmx 0.3
+accuracy   10
+xtol opt   8
+gtol opt   8
+ftol opt   8
+maxcyc opt  2000
+output cif a.cif
+dump every 100 gulp.res
+# switch rfo 0.001

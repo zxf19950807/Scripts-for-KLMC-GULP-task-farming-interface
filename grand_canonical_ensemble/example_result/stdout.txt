@@ -1,0 +1,136 @@
+ * processing size 0 | data count 1 ...
+ | 0/1 structures with imaginary frequencies were found
+ | finished
+ * processing size 1 | data count 16933 ...
+ | 226/16933 structures with imaginary frequencies were found
+ | finished
+ * processing size 2 | data count 15884 ...
+ | 479/15884 structures with imaginary frequencies were found
+ | finished
+ * processing size 3 | data count 16887 ...
+ | 277/16887 structures with imaginary frequencies were found
+ | finished
+ * processing size 4 | data count 16792 ...
+ | 243/16792 structures with imaginary frequencies were found
+ | finished
+ * processing size 5 | data count 16863 ...
+ | 169/16863 structures with imaginary frequencies were found
+ | finished
+ * processing size 6 | data count 16874 ...
+ | 125/16874 structures with imaginary frequencies were found
+ | finished
+ * processing size 7 | data count 16965 ...
+ | 164/16965 structures with imaginary frequencies were found
+ | finished
+ * processing size 8 | data count 17055 ...
+ | 131/17055 structures with imaginary frequencies were found
+ | finished
+ * processing size 9 | data count 17058 ...
+ | 128/17058 structures with imaginary frequencies were found
+ | finished
+ * processing size 10 | data count 17181 ...
+ | 139/17181 structures with imaginary frequencies were found
+ | finished
+ * processing size 11 | data count 17074 ...
+ | 160/17074 structures with imaginary frequencies were found
+ | finished
+ * processing size 12 | data count 17091 ...
+ | 156/17091 structures with imaginary frequencies were found
+ | finished
+ * processing size 13 | data count 17131 ...
+ | 160/17131 structures with imaginary frequencies were found
+ | finished
+ * processing size 14 | data count 17107 ...
+ | 166/17107 structures with imaginary frequencies were found
+ | finished
+ * processing size 15 | data count 17196 ...
+ | 226/17196 structures with imaginary frequencies were found
+ | finished
+ * processing size 16 | data count 17130 ...
+ | 278/17130 structures with imaginary frequencies were found
+ | finished
+ * processing size 17 | data count 17140 ...
+ | 331/17140 structures with imaginary frequencies were found
+ | finished
+ * processing size 18 | data count 17102 ...
+ | 375/17102 structures with imaginary frequencies were found
+ | finished
+ * processing size 19 | data count 17011 ...
+ | 460/17011 structures with imaginary frequencies were found
+ | finished
+ * processing size 20 | data count 17011 ...
+ | 506/17011 structures with imaginary frequencies were found
+ | finished
+ * processing size 21 | data count 16963 ...
+ | 672/16963 structures with imaginary frequencies were found
+ | finished
+ * processing size 22 | data count 16886 ...
+ | 971/16886 structures with imaginary frequencies were found
+ | finished
+ * processing size 23 | data count 16724 ...
+ | 1663/16724 structures with imaginary frequencies were found
+ | finished
+ * processing size 24 | data count 16445 ...
+ | 3659/16445 structures with imaginary frequencies were found
+ | finished
+ * reaction energy calculation ... size : 0
+vib_load.dev2.py:292: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  csvdf['energy'] = (csvdf['energy'] - _e_gulp_mn2O4 + (_LiOx + _MnRe + _corr) * s )/24.
+ * reaction energy calculation ... size : 1
+ * reaction energy calculation ... size : 2
+ * reaction energy calculation ... size : 3
+ * reaction energy calculation ... size : 4
+ * reaction energy calculation ... size : 5
+ * reaction energy calculation ... size : 6
+ * reaction energy calculation ... size : 7
+ * reaction energy calculation ... size : 8
+ * reaction energy calculation ... size : 9
+ * reaction energy calculation ... size : 10
+ * reaction energy calculation ... size : 11
+ * reaction energy calculation ... size : 12
+ * reaction energy calculation ... size : 13
+ * reaction energy calculation ... size : 14
+ * reaction energy calculation ... size : 15
+ * reaction energy calculation ... size : 16
+ * reaction energy calculation ... size : 17
+ * reaction energy calculation ... size : 18
+ * reaction energy calculation ... size : 19
+ * reaction energy calculation ... size : 20
+ * reaction energy calculation ... size : 21
+ * reaction energy calculation ... size : 22
+ * reaction energy calculation ... size : 23
+ * reaction energy calculation ... size : 24
+ * start ensemble analysis
+ | temperature (K)     = 40.0
+ | including vibration = True
+ * processing partition function Z : size 0
+ * processing partition function Z : size 1
+ * processing partition function Z : size 2
+ * processing partition function Z : size 3
+ * processing partition function Z : size 4
+ * processing partition function Z : size 5
+ * processing partition function Z : size 6
+ * processing partition function Z : size 7
+ * processing partition function Z : size 8
+ * processing partition function Z : size 9
+ * processing partition function Z : size 10
+ * processing partition function Z : size 11
+ * processing partition function Z : size 12
+ * processing partition function Z : size 13
+ * processing partition function Z : size 14
+ * processing partition function Z : size 15
+ * processing partition function Z : size 16
+ * processing partition function Z : size 17
+ * processing partition function Z : size 18
+ * processing partition function Z : size 19
+ * processing partition function Z : size 20
+ * processing partition function Z : size 21
+ * processing partition function Z : size 22
+ * processing partition function Z : size 23
+ * processing partition function Z : size 24
+ * calculation of canonical G / Z done ...
+chemical potential u: window [ -7.5 : 5.0 ]
